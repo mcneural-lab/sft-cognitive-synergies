@@ -1,0 +1,641 @@
+response,normalized
+baldeagle,bald eagle
+guineapig,guinea_pig
+giantanteater,giant_anteater
+prairiedog,prairie dog
+dres,dress
+tshirt,shirt
+scarfwamentionedbeforesobelt,scarf
+sundres,sundress
+swimtrunk,swimming pants
+underpant,underpants
+dressinggown,dressing_gown
+glas,glass
+swimmingtrunk,swimming pants
+tubetop,betop
+bathingsuit,bathing suit
+monkrobe,robe
+kneehigh,knee_high
+lederhose,lederhosen
+polarbear,polar_bear
+grizzlybear,grizzly_bear
+lampfish,crampfish
+redpanda,red panda
+poloshirt,polo_shirt
+dresshirt,dress_shirt
+haltertop,halter top
+croptop,droptop
+sunglas,sunglass
+pocketsquare,pocket_square
+anklesock,ankle socks
+highanklesock,high ankle sock
+crewsock,crewson
+pennyloafer,penny_loafer
+tasselloafer,loafer
+slipon,slip on
+businespant,business pants
+pleatedjean,pleated jeans
+bootcutjean,bootcut jeans
+cowboyjean,cowboy jeans
+wranchpant,wranch pants
+buttondown,button_down
+ankleboot,ankle boot
+baseballhat,baseball hat
+tuxedoshirt,tuxedo shirt
+panamahat,panama hat
+cowboyhat,cowboy
+buttonupshirt,button
+boardshort,boardshorts
+biboverall,bibovine
+longjohn,asbestos_longjohns
+flyingsquirrel,flying_squirrel
+sugarglider,sugar_glider
+siberiancat,siberian cat
+tasmaniandevil,tasmanian_devil
+mantisshrimp,mantis_shrimp
+longsleeve,longsleeved
+canva,canvas
+nightdres,nightdress
+trousersalreadymentionedsocummerbund,trousers
+hazmatsuit,hazmat
+duffelcoat,duffel_coat
+wellingtonboot,wellington_boot
+hikingboot,hiking_boot
+minidres,minidress
+winterhat,winterhaven
+glovewaalreadymentionedsobelt,belt
+toesock,toe socks
+bowlerhat,bowler
+highheel,high heels
+yogapant,yoga
+tennishoe,tennis_shoe
+jeort,jeon
+polarfleece,polar_fleece
+fingerlesglove,fingerless_glove
+gstring,thong
+skorts,skort
+joggingbottom,jogging_bottoms
+yfronts,fronts
+shellsuit,shells
+queensnake,queen_snake
+uralowl,ural_owl
+arcticfox,arctic_fox
+pinemarten,pine_marten
+bluewhale,blue_whale
+humpbackwhale,humpback_whale
+sabertoothedtiger,sabertooth tiger
+trackpant,track pants
+cargopants,cargo pants
+baseballcap,ballcap
+buckethat,bucket hat
+skimask,ski mask
+fleecejacket,fleece
+kneebreech,knee breech
+capripants,capri_pants
+gartersnake,watersnake
+barnowl,hornowl
+screechowl,screech_owl
+plusfour,plus four
+facecap,face cap
+honeybadger,honey_badger
+leatherpant,leather pants
+furcoat,surcoat
+boxershorts,boxer_shorts
+faja,aja
+earwarmer,ear warmer
+stickinsect,stick_insect
+boxershort,boxers
+weddingdres,wedding
+cornedbeef,corned_beef
+fishfinger,fish finger
+washingupliquid,washing_up_liquid
+creamsoda,cream soda
+lemonjuice,lemon_juice
+quarterzip,quarter zip
+designertshirt,designer shirt
+designerhoodie,designer hoodie
+designerjean,designer jean
+frozenfood,frozen_food
+frozenberry,frozen berry
+peanutbutter,peanut_butter
+chickenwing,chicken wings
+chickendrumstick,chicken_drumstick
+lambmince,mince
+herbaltea,herbal_tea
+potnoodle,pot noodle
+trainingtop,training
+footballtop,football
+sodapop,soda_pop
+bakedbean,baked
+cottagecheese,cottage_cheese
+readymeal,ready_meal
+spongepudding,pudding
+tinnedfruitcocktail,fruit_cocktail
+ricepudding,rice_pudding
+bomberjacket,lumberjacket
+beaniehat,beanie
+tracksuitbutton,tracksuit
+tracksuitbottom,tracksuit_bottoms
+tracksuittop,tracksuit
+linenshirt,greenshirt
+wintercoat,winter_coat
+swimmingshort,swimming
+gymtop,palmtop
+gymshort,gyms
+tiedyeshirt,shirt
+fizzydrink,fizzy_drink
+bellpepper,bell_pepper
+komododragon,komodo_dragon
+cargopant,cargo pants
+wrapdres,wrap
+bandagedres,bandaged
+trainersock,trainers
+kneehighsock,knee_highs
+compressionsock,compression sock
+dishwashersalt,dishwasher salt
+oatbar,matbar
+butternutsquash,butternut_squash
+goatcheese,goat_cheese
+wensleydalecheese,wensleydale cheese
+babyfood,baby food
+oatmilk,oat milk
+tomatopuree,tomato puree
+tinnedtomato,tinned tomato
+underwearnotealreadysingularbutoftenconsideredapluralnounduetoitcommonusageaamasnounhoweverfollowinginstructionstrictlynochangeimade,underwear
+flannelshirt,flannels
+frenchfry,french_fry
+gummybear,gummy_bear
+greenbean,green bean
+brownbear,brown bear
+blackbear,black bear
+seaurchin,urchin
+fingerwarmer,finger warmer
+coffeeground,coffee_ground
+garbagebag,garbage bag
+candybar,candy
+hotsauce,hot sauce
+sweetsauce,sweet sauce
+cajunseasoning,cajun seasoning
+proteinpowder,powder
+oliveoil,olive oil
+almondmilk,almond_milk
+papertowel,paper_towel
+killerwhale,killer_whale
+muscleshirt,muscle_shirt
+gingerale,ginger ale
+lemontart,lemon tart
+nikeshoe,nikes
+denimjacket,denim jacket
+bralet,bralette
+cardmachine,card machine
+freshproduceaisle,fresh_produce
+toiletpaper,toilet_paper
+chillisle,chillis
+automaticdoor,automatic door
+cheeseaisle,cheese
+hairdye,overdye
+woolsock,woolsorter
+athleticsock,athletics
+bakingsoda,baking_soda
+bakingpowder,baking_powder
+maplesyrup,maple_syrup
+chickenthigh,chicken
+fruitbat,fruit
+neckchief,neckerchief
+longsleevedshirt,longsleeved
+chaine,chained
+shiftleader,shiftless
+toiletroll,toiletry
+securityguard,security_guard
+donationbox,donation box
+tannoysystem,tannoy system
+yfront,bayfront
+soysauce,soy sauce
+washingpowder,washing_powder
+birthdaycake,birthday cake
+chocolatespread,chocolate_spread
+coconutmilk,coconut_milk
+peplumtop,peplum top
+skinnyjean,skinny jeans
+widelegpant,wideleg pant
+fishnettight,fishnet tights
+boyshort,boyshorts
+denimshort,denims
+maxidres,maxidress
+mididres,didrex
+denimskirt,denim skirt
+leatherskirt,overskirt
+breadbuttercheeseeggpotatocarrotonionlettucetomatograpesausage,butter
+tomatosauce,tomato_sauce
+laundrydetergent,laundry_detergent
+frozenpizza,frozen pizza
+cannedbean,canned bean
+groundbeef,ground_beef
+smarttrouser,trouser
+longsleevetop,longsleeved top
+footballboot,football_boot
+footballshirt,football jersey
+flatcap,flat cap
+chickenbreast,chicken_breast
+chickenpack,chicken pack
+hamjoint,ham joint
+babypotato,baby potato
+energydrink,energy_drink
+pepsidiet,pepsis
+greekyogurt,greek_yogurt
+chewinggum,chewing gum
+chocolatebar,chocolate bar
+frenchstick,french_stick
+sourdoughbread,sourdough
+halloumicheese,halloumi
+mozzarellacheese,mozzarella
+cheddarcheese,cheddar_cheese
+proteinpudding,pudding
+bottleofwater,bottle_water
+frozenfruit,frozen fruit
+choppedtomato,chopped
+greaseproofpaper,greaseproof_paper
+breadroll,beadroll
+easteregg,easter_egg
+cocacola,cola
+ricekrispie,rice_krispies
+cocopop,chocolate cereal
+cleaningspray,cleaning spray
+kitchenroll,paper towel
+workouttop,workout top
+runningshoe,running_shoe
+footballshort,football shorts
+rugbyshirt,rugby_shirt
+basketballshirt,basketball shirt
+baseballshirt,baseball shirt
+laundrypowder,laundry powder
+kitchenutensil,kitchen_utensil
+pencilcase,pencil_case
+cagoul,cagoule
+bengaltiger,bengal_tiger
+longsleeveshirt,longsleeved
+pepperjackcheese,dickcheese
+swischeese,swiss_cheese
+snickericecreambar,snickering
+redpepperflake,flake
+greenpepper,green_pepper
+redpepper,pepper
+yellowpepper,pepper
+caesarsalad,caesar_salad
+mixedgreen,mixed greens
+bluecheese,blue_cheese
+frenchdressing,french_dressing
+caesardressing,caesar
+frankhotsauce,sauce
+mountaindew,mountain_dew
+drpepper,soda
+cherrycoke,cherry_coke
+cherrypepsi,pepsi
+dietcoke,diet_coke
+dietpepsi,diet_pepsi
+awrootbeer,rootbeer
+barqrootbeer,rootbeer
+frozenmeal,frozen
+cargoshort,cargo
+pufferjacket,waterjacket
+shoppingcart,shopping_cart
+selfcheckout,self_checkout
+dishsoap,soap
+spidermonkey,spider_monkey
+mashedpotato,mashed_potato
+greatwhiteshark,great_white_shark
+hammerheadshark,hammerhead_shark
+baskingshark,basking_shark
+snappingturtle,snapping_turtle
+duckbillplatypus,duckbill
+highlandcow,highland
+footballsock,footballs
+pyjamatshirtandshort,pyjama
+porkpiehat,porkpie
+suitjacket,suit jacket
+highheelshoe,high heel shoe
+flatshoe,flatshare
+dresshoe,dress_shoe
+zippedhoody,zipped hoody
+piratehat,pirate hat
+electricalgood,electrical goods
+customerservicedesk,customer_service desk
+cigarettekiosk,cigarette kiosk
+frozensection,frozen section
+parkinglot,parking
+fruitorvegetable,fruit_vegetable
+fishcounter,fish
+pizzacounter,pizza
+queuedivider,queued
+healthandbeautysection,health
+shoppinglist,shopping
+nikejean,jeans
+dishwashingliquid,dishwashing_liquid
+powderedsoup,powdered
+capripant,capripox
+13zipsweater,sweater
+racerbacktanktop,tanktop
+snowpant,snowpack
+saladdressing,addressing
+sourcream,sour_cream
+creamcheese,cream_cheese
+sunfloweroil,sunflower oil
+vegetableoil,vegetable oil
+asparagu,asparagus
+daddylonglegs,daddy_longlegs
+woollyjumper,woolly
+icingsugar,icing_sugar
+cheesespread,cheese_spread
+breadflour,bread_flour
+sweetandsoursauce,sweet_bean_sauce
+saladcream,salad_cream
+brownsauce,brown_sauce
+bakingspread,wingspread
+laundryliquid,laundry
+underwearnotealreadyinaformthatcanbesingularorpluralbutforconsistencyinthetaskitmightbeconsideredaneedingaclearsingularformhoweveranunderwearinotstandardthutheoriginalikeptaitamasnoun,underwear
+dustingspray,dusting
+pizzacrust,pizza_crust
+hotpocket,hotpot
+boaconstrictor,constrictor
+sportjacket,sport_jacket
+shootingjacket,shooting_jacket
+woodenleg,woodenly
+hookarm,karm
+winterjacket,winter jacket
+applejuice,apple juice
+orangejuice,orange_juice
+babywipe,baby_wipe
+snowjacket,yellowjacket
+bluejeanjacket,bluejacket
+formaldres,formal dress
+headtie,headtire
+buttondownshirt,button shirt
+vneck,shirt
+chelseaboot,chelsea_boot
+bodyspray,body_spray
+hosery,hoser
+breakfastbar,breakfast
+readymadecurry,readymade
+naanbread,naan
+chickennugget,chicken_nugget
+proteinbar,protein
+hummu,hummus
+juicebox,icebox
+frozenvegetable,frozen vegetable
+tatertot,tater_tot
+potatowedge,potato
+hashbrown,hash_brown
+ranchdressing,ranch_dressing
+boneleswing,boneless
+hamburgerhelper,hamburger
+hamburgerbun,hamburger_bun
+candrink,can drink
+washingliquid,washing_up_liquid
+fruitjuice,fruit_juice
+windscreenwiper,windscreen_wiper
+beansprout,bean_sprout
+bodywash,bodywarmer
+reouser,rouser
+maternitydres,maternity dress
+dinnerjacket,dinner jacket
+morningsuit,morning suit
+headwarmer,head warmer
+pastasauce,pasta_sauce
+mountainlion,mountain lion
+cheesestring,string_cheese
+swimmingcostume,swimming_costume
+hotdogbun,hotdog bun
+cannedtuna,canned_tuna
+wilddog,wild dog
+stretchypant,stretchy pants
+bellbottom,bellbottom_pants
+eveninggown,evening_gown
+weddinggown,weddinggoer
+alfredosauce,alfredo_sauce
+leopardgecko,leopard_gecko
+pancakemix,pancake_mix
+canofsoup,soup
+frozendinner,frozen_dinner
+cranberryjuice,cranberry_juice
+catlitter,cat litter
+dentalflos,dental floss
+coffeecreamer,coffee_cream
+cowboyboot,cowboy_boot
+tightywhite,tighty white
+cannedfruit,canned fruit
+steakpie,steak pie
+cheeseandonionroll,cheese_roll
+tortillawrap,tortilla wrap
+frozenchip,frozen chip
+gardensnake,garden_snake
+roastedvegetable,roasted vegetable
+cannedgood,canned good
+plaidshirt,plaids
+utilityjacket,utility jacket
+jeanjacket,jeans_jacket
+longskirt,long_skirt
+plaidskirt,plaid skirt
+featherboa,feather boa
+grasskirt,grass_skirt
+tapshoe,tap shoe
+gladiatorsandal,gladiator sandal
+hairtie,hair tie
+leathervest,leather vest
+oversizedsweater,oversized sweater
+crewneckshirt,crewneck shirt
+vnecktanktop,vneck tanktop
+joggingpant,jogging pants
+drespant,dress pants
+cannedfooditem,canned food item
+potatochip,potato_chip
+coffeefilter,coffee_filter
+vegetablejuice,vegetable_juice
+waterbuffalo,water_buffalo
+paperplate,paper_plate
+paperbowl,paper bowl
+papercup,paper cup
+stuffedanimal,stuffed_animal
+whippedcream,whipped_cream
+antisepticcream,antiseptic cream
+softdrink,soft_drink
+bathtissue,tissue
+canoffruit,canned fruit
+petchew,pet chew
+qtip,tip
+sanitarypad,sanitary_pad
+zipup,zip up
+mermaiddres,mermaid dress
+milkmaiddres,milkmaid dress
+flaredjean,flared jeans
+carpenterjean,carpenter jeans
+fleecehoodie,fleece hoodie
+longsleeveskirt,longsleeved skirt
+sportbra,sport bra
+underwirebra,underwire bra
+wirelesbra,wireless bra
+longsleevedtshirt,longsleeved shirt
+shortsleevecroptop,shortsleeve crop top
+lacesweater,lace sweater
+marblecheese,marble_cheese
+goudacheese,gouda_cheese
+ramannoodle,noodle
+humu,humus
+greenonion,green_onion
+bellybuttonring,bellybutton ring
+swimtop,swim top
+onepiece,one piece
+camouflagepant,camouflage pants
+bodylotion,body_lotion
+haircream,hair_cream
+rolleron,roller on
+asiaticlion,asiatic lion
+garterbelt,garter_belt
+balletslipper,ballet_slipper
+gouches,couches
+dressshirt,dress_shirt
+jeanshort,jeans
+mockturtleneck,turtleneck
+sweatervest,sweater vest
+boxerbrief,boxer briefs
+bolotie,bolo tie
+supporthose,support_hose
+balletshoe,ballet_shoe
+bolerotie,bolero
+shapewear,shape wear
+cocktaildress,cocktail_dress
+yogawear,yoga wear
+sandhillcrane,sandhill_crane
+wildboar,boar
+bobblehat,bobble
+yogapants,yoga
+loungesuit,lounges
+tennisshoe,tennis_shoe
+dressshoe,dress_shoe
+jeorts,jean shorts
+frozenpea,frozen pea
+tinoffruit,canned fruit
+baggyjean,baggy jeans
+pushupbra,push up bra
+smartshirt,smart shirt
+exercisetop,exercise top
+souwester,sweater
+petitecoat,petite coat
+collaredshirt,collared shirt
+kneesock,knee socks
+longjohns,long underwear
+trilbyhat,trilby hat
+oxfordshirt,oxford shirt
+silkshirt,silk shirt
+greattit,great_tit
+pitbulls,pitbull
+duckbilledplatypus,duckbilled platypus
+macaquemonkey,macaque
+mainecooncat,cooncan
+highheels,high heels
+hikingboots,hiking boots
+woolsocks,wool socks
+athleticsocks,athletic socks
+t-shirt,shirt
+mini-skirt,miniskirt
+anklesocks,ankle socks
+workshoes,workshoe
+workouttops,workout top
+gymshorts,gym shorts
+runningshoes,running_shoes
+footballshirts,football shirt
+footballshorts,football shorts
+tracksuitbottoms,tracksuit_bottoms
+wrapdress,wrap_dress
+bandagedress,bandaged
+trainersocks,trainer socks
+kneehighsocks,knee_socks
+compressionsocks,compression socks
+footballjersey,football jersey
+swimmingshorts,swimming_shorts
+swimmingtrunks,swimming_trunks
+cargos,cargo pants
+joggingbottoms,jogging_bottoms
+quarterzips,quarter zips
+designertshirts,designer shirts
+designerhoodies,designer hoodies
+designerjeans,designer jeans
+tennisshoes,tennis_shoes
+smarttrousers,smart trousers
+footballboots,football boots
+salopettes,salop
+fingerwarmers,warmers
+jeanshorts,jeans
+1/3zipsweater,sweater
+snowpants,snowpack
+buttondowns,button downs
+skinnyjeans,skinny_jeans
+widelegpants,wide leg pants
+fishnettights,fishnetted tights
+denimshorts,denim shorts
+mididress,minidress
+frozenberries,frozen berries
+bakedbeans,baked_beans
+readymeals,ready meal
+lambchops,lambchop
+chickenwings,chicken_wings
+chickendrumsticks,drumsticks
+porkchops,porkchop
+potnoodles,noodles
+dishwashersalts,dishwasher salts
+antibac,antibacterial
+oatybars,oaty bars
+saladleaves,leaves
+goatscheese,goat_cheese
+frozenmeals,frozen
+soyabeans,soybeans
+babywipes,baby_wipes
+fizzypop,fizzy drink
+binbags,binbag
+bellpeppers,bell peppers
+greenbeans,green_beans
+hotpockets,pockets
+swisscheese,swiss_cheese
+snickersicecreambar,snickers ice_cream
+redpepperflakes,red pepper flakes
+mixedgreens,mixed greens
+frank'shotsauce,sauce
+a&wrootbeer,rootbeer
+sandwichspread,sandwich_spread
+windowcleaner,window_cleaner
+frozenpeas,frozen peas
+ovenchips,oven chips
+roastedpeanuts,roasted peanuts
+tinnedfruit,tinned fruit
+hardalcohol,alcohol
+coffeegrounds,coffee_grounds
+garbagebags,garbage_bags
+candybars,candy
+papertowels,paper_towels
+trashbags,trashbag
+waterbottles,waterbottle
+choppedtomatoes,chopped tomatoes
+breadrolls,bread rolls
+fishfingers,fish
+eastereggs,easter_eggs
+ricekrispies,krispies
+cocopops,cereal
+sweetsoursauce,sweet sour sauce
+frenchfries,french_fries
+gummybears,gummy_bears
+poppadoms,poppadom
+packetchicken,packet chicken
+packetturkey,packet turkey
+packetham,packet ham
+babypotatoes,baby potatoes
+energydrinks,energy_drinks
+standardpepsi,pepsi
+greekyoghurt,yoghurt
+chocolatebars,chocolate bars
+proteinpuddings,protein puddings
+bottlesofwater,water
+vapes,vape
+scratchcards,scratchcard
+powdersoup,powder soup
+highlandcattle,highland cattle
+tinnedtomatoes,canned tomatoes
+shreddedcheese,shredded cheese

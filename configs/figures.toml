@@ -1,0 +1,138 @@
+# Inventory of figures reproducible from this release.
+#
+# Each entry maps a figure id (as used by scripts/reproduce_figure.sh) to the
+# script that produces it. Targets listed here are the complete set of
+# manuscript figures that ship with code in this release.
+
+[release]
+scope = "PNAS code release accompanying Lacosse, Duarte, et al."
+default_uses_api = false
+data_policy = "public-release data and results"
+
+[[figures]]
+id = "figure-2b"
+number = "Figure 2B"
+description = "Macro-cognitive TPM Mantel correlation (Spearman rho)."
+script = "src/sftbench/macro/plot_tpm_from_sequences.py"
+
+[[figures]]
+id = "figure-2c"
+number = "Figure 2C"
+description = "BLEU similarity across humans, TPM-LOO, and the Gemini model suite."
+script = "src/sftbench/macro/plot_bleu_scores.py"
+
+[[figures]]
+id = "figure-2d"
+number = "Figure 2D"
+description = "Trajectory geometry (spectral gap, curvature)."
+script = "src/sftbench/macro/geometric_ai_vs_human.py"
+
+[[figures]]
+id = "figure-3"
+number = "Figure 3"
+description = "Gemini-3-Pro vs humans on next-exemplar prediction."
+script = "src/sftbench/micro/prediction/plotting/plot_human_vs_ai_next-exemplar_prediction-results.py"
+
+[[figures]]
+id = "figure-4abc"
+number = "Figure 4A-C"
+description = "Llama-3.3-70B perplexity on original vs mismatched-prefix vs shuffled sequences."
+script = "src/sftbench/micro/llama/plot_prob_seq.py"
+
+[[figures]]
+id = "figure-4d"
+number = "Figure 4D"
+description = "Controlled, size-matched Jaccard generation overlap from seed vs longer human context."
+script = "src/sftbench/micro/generative/plot_new_jaccard_control.py"
+
+[[figures]]
+id = "si-switch-prediction"
+number = "SI Fig S1 / Table S1"
+description = "Human vs AI switch-prediction accuracy overall, by category, and by rank."
+script = "src/sftbench/micro/prediction/plotting/plot_human_vs_ai_next-exemplar_switch-results.py"
+
+[[figures]]
+id = "si-tpm-grid"
+number = "SI Fig S2"
+description = "Macro and micro TPM heatmaps (human vs Gemini)."
+script = "src/sftbench/macro/plot_tpm_from_sequences.py"
+
+[[figures]]
+id = "si-model-scaling"
+number = "SI Fig S4"
+description = "Next-exemplar prediction accuracy across Gemini, GPT, Claude, Llama, and the n-gram baseline."
+script = "src/sftbench/micro/prediction/plotting/new_plot_prediction_results.py"
+
+[[figures]]
+id = "si-cognitive-prompting"
+number = "SI Fig S5 / Table S2"
+description = "Theory-driven cognitive prompting vs zero-shot and few-shot baselines."
+script = "src/sftbench/micro/prediction/plotting/new_plot_prediction_results.py"
+
+[[figures]]
+id = "si-llama-70b-prediction"
+number = "SI Fig S7"
+description = "Llama-3.3-70B next-exemplar prediction vs humans."
+script = "src/sftbench/micro/prediction/plotting/plot_human_vs_ai_next-exemplar_prediction-results.py"
+
+[[figures]]
+id = "figure-5"
+number = "Figure 5"
+description = "Dyadic response-time and self-similarity changes, partner-midpoint similarity, and concept production."
+script = "src/sftbench/dyadic/plot_fig5.py"
+
+# Dyadic SI figures.
+
+[[figures]]
+id = "si-word-count-by-category"
+number = "SI Fig S9"
+description = "Number of words produced by dyadic condition, split by category (animals, clothes)."
+script = "src/sftbench/dyadic/word_count.py"
+
+[[figures]]
+id = "si-irt-early-late"
+number = "SI Fig S10"
+description = "Human log response times (z-scored) by task phase (early, late), categories collapsed."
+script = "src/sftbench/dyadic/irt_phase.py"
+
+[[figures]]
+id = "si-self-vs-other-similarity"
+number = "SI Fig S11"
+description = "Cosine similarity (self vs other) by dyadic condition, overall and split by category."
+script = "src/sftbench/dyadic/self_other_similarity.py"
+
+[[figures]]
+id = "si-word-count-irt"
+number = "SI Fig S12"
+description = "Word counts (aggregated and paired-by-prompt) and paired response times by prompt type."
+script = "src/sftbench/dyadic/word_count.py"
+
+[[figures]]
+id = "si-artificial-delay"
+number = "SI Fig S13"
+description = "Lognormal RT model vs observed RTs (A) and human vs AI-partner log-RT violin (B)."
+script = "src/sftbench/dyadic/rt_lognorm.py"
+
+[[figures]]
+id = "si-switch-vs-no-switch"
+number = "SI Fig S14"
+description = "Cosine similarity to previous word and response times in switch/no-switch words, by category."
+script = "src/sftbench/dyadic/irt_phase.py"
+
+[[figures]]
+id = "si-self-other-late-early-change"
+number = "SI Fig S15"
+description = "Change in cosine similarity (late - early) for self and other similarities by dyad type."
+script = "src/sftbench/dyadic/similarity_change_si.py"
+
+[[figures]]
+id = "si-prompt-condition-change"
+number = "SI Fig S16"
+description = "Late-vs-early response-time (A) and self-similarity (B) change by dyad type, all prompt conditions."
+script = "src/sftbench/dyadic/early_late_si.py"
+
+[[figures]]
+id = "table-s3-ols"
+number = "Table S3"
+description = "Fixed-effects OLS regression on z-scored log human response times."
+script = "src/sftbench/dyadic/ols_word_index.py"

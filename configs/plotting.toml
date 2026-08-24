@@ -1,0 +1,4 @@
+[seaborn]
+context = "paper"
+font_scale = 1.9
+style = "whitegrid"

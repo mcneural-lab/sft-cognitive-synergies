@@ -1,0 +1,43 @@
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+
+Summary:         https://creativecommons.org/licenses/by-sa/4.0/
+
+The raw 1.1 GB Numberbatch file is NOT redistributed here. It is downloaded
+from the upstream source on demand by
+`scripts/download_conceptnet_numberbatch.sh`.
+
+Third-party sources
+-------------------
+
+ConceptNet Numberbatch (CC BY-SA 4.0)
+    Speer, R., Chin, J., & Havasi, C. (2017). ConceptNet 5.5: An open
+    multilingual graph of general knowledge. Proceedings of the AAAI
+    Conference on Artificial Intelligence, 31(1).
+    https://github.com/commonsense/conceptnet-numberbatch
+
+SNAFU category scheme -- `data/sequences/animals_snafu_scheme.csv`
+    Zemla, J. C., Cao, K., Mueller, K. D., & Austerweil, J. L. (2020).
+    SNAFU: The Semantic Network and Fluency Utility. Behavior Research
+    Methods, 52(4), 1681-1699. https://doi.org/10.3758/s13428-019-01343-w
+
+Semantic fluency sequences
+    The animal-fluency trajectories analysed here come from two additional external sources, combined. `data/sequences/human/hills/hills.csv`.
+
+    Hills, T. T., Jones, M. N., & Todd, P. M. (2012). Optimal foraging in
+    semantic memory. Psychological Review, 119(2), 431-440.
+    https://doi.org/10.1037/a0027373
+
+    Zemla, J. C., Gooding, D. C., & Austerweil, J. L. (2023). Evidence for
+    optimal semantic search throughout adulthood. Scientific Reports, 13(1),
+    22528. https://doi.org/10.1038/s41598-023-49858-9
+    Published open access under CC BY 4.0.
+
+Clustering and switching norms
+    Troyer, A. K. (2000). Normative data for clustering and switching on
+    verbal fluency tasks. Journal of Clinical and Experimental
+    Neuropsychology, 22(3), 370-378.
+
+Human-subjects data
+-------------------
+Data collected for this study -- the dyadic collaborative-search sessions and
+the next-exemplar prediction sessions -- is released de-identified.
