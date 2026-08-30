@@ -93,6 +93,77 @@ the large ConceptNet Numberbatch file downloaded on demand as described above.
 | `results/hills/next-exemplar/cognitive_prompting/` | 21 MB | SI Fig S5 / Table S2 |
 | `data/dyadic/conceptnet/` | 43 MB | Figure 5, SI Figs S9--S16, and Table S3 |
 
+## Dyadic dataset
+Data collected from dyadic experiments is located in `data/dyadic/conceptnet/`.
+- `solo_words_processed.csv` for solo data, `hh_words_processed.csv` for human dyad data, `ai_words_processed.csv` for human-AI dyad data: word-level data (each row corresponds to a word).
+- `solo_words_with_embeddings_switches.pkl`, `hh_…pkl`, `ai_…pkl`: precomputed word embeddings (ConceptNet) and similarity-defined switches.
+
+## Data Structure
+
+### Word-Level Data CSVs
+
+| Column | Description |
+|--------|-------------|
+| `text` | The concept generated|
+| `source` | Who produced the word (player identifier in human dyads; `user` or `ai` human-AI dyads) |
+| `relativeTimestamp` | Time elapsed since the beginning of the task |
+| `irt` | Inter-response time (seconds) |
+| `original_index` | Position in original sequence (pre filtering of duplicates and invalid items) |
+| `playerID` | Unique identifier for player or game session |
+| `gameID` | Game instance identifier |
+| `category` | Task category (`animals`, `clothes` or `supermarket`) |
+| `partner` | `AI` or partner's playerID |
+| `dyadType` | `AI` or `HH` (human-human) |
+| `roundIndex` | Order of task presentation |
+| `switch` | Participant-identified switch events (`1`: switch to a different subcategory; `0`: not a switch)|
+| `label` | Participant-described subcategory label |
+| `serverStartTime` | UNIX timestamp of start of task |
+| `original_text` | Raw word input (may be misspelled)|
+| `normalized_text` | Normalized word (lower-case, removed spaces and spec)|
+| `snafu_cat` | Subcategory defined by SNAFU norms |
+| `switch_snafu` | Switch defined by changing between SNAFU subcategories |
+| `word_index` | Position in sequence (0-indexed, post processing) |
+| `prompt` | `Divergent`, `adjacent` (corresponding to convergent) or `inferred`|
+
+Note: `text` in the pickle files is processed 
+
+The embedding pipeline rewrites the `text` column present in the pickle files, from which the embeddings are calculated. This consists of removing spaces, applying a manual mapping dictionary for concept normalization (e.g. "hippo" becomes "hippopotamus"), then replacing words absent from the ConceptNet vocabulary to their closest entries (see `sftbench.embeddings.utils`). The pickles therefore hold
+two versions of each word:
+
+- `text` — post-transformation; the string actually embedded (`shirt`, `guinea_pig`)
+- `text_unmodified` — the value as it appears in the CSV (`T-shirt`, `guinea pig`)
+
+
+### Loaded Data
+Using `sftbench.dyadic.load_data` to load data, the resulting data structure contains the following columns:
+
+| Column | Description |
+|--------|-------------|
+| `playerID` | Unique identifier for player or game session |
+| `gameID` | Game instance identifier |
+| `dyadType` | "solo", "ha", or "hh" |
+| `source` | Who produced this word (playerID or "ai") |
+| `sourceType` | "human" or "ai" |
+| `text` | The concept generated (as in the CSV files) |
+| `word_index` | Position in sequence (0-indexed, post processing) |
+| `irt` | Inter-response time (seconds) |
+| `log_irt` | Log-transformed IRT |
+| `log_irt_zscore` | Z-scored log IRT (within player) |
+| `embedding` | Word embedding vector (normalized) |
+| `embedding_similarity` | Cosine similarity with partner |
+| `self_similarity` | Cosine similarity to own previous word (all conditions) |
+| `other_similarity` | Cosine similarity to partner's previous word (HH/HA only) |
+| `partner_midpoint_sim` | Cosine similarity of partner's word to the midpoint of own previous/current words (Figure 5 Panel C; dyadic only, `NaN` for solo) |
+| `switch_sim` | Similarity-based switch flag (`1` = cluster switch, `0` = no switch); precomputed in the pickle files via `switch_median` (per-sequence median threshold). Drives the Figure S14 switch/no-switch split. |
+| `word_index_split` | Early (`False`) vs late (`True`) median split by word index |
+
+
+**Individual sequences are identified by grouping on:**
+
+- HA dyads: `playerID` + `category`
+- HH dyads: `gameID` + `category`
+- Solo: `playerID` + `category`
+
 ## Citation
 
 ```bibtex
@@ -126,5 +197,5 @@ the large ConceptNet Numberbatch file downloaded on demand as described above.
 
 ## License
 
-Code (`src/`, `scripts/`, `tests/`, `configs/`) is MIT — see `LICENSE`. Bundled
+Code (`src/`, `scripts/`, `configs/`) is MIT — see `LICENSE`. Bundled
 data (`data/`, `results/`) is CC BY-SA 4.0 — see `LICENSE-DATA`
